@@ -1,0 +1,217 @@
+*
+{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+    background-color: black;
+    height: 1000px;
+}
+.navbar
+{
+    width: 100%;
+    display: flex;
+    position: fixed;
+
+    height: 30px;
+    background-color: #FCAF02;
+    justify-content: start;
+    align-items: center;
+}
+.navbar .left
+{
+    position: relative;
+    left: 50px;
+}
+
+.navbar .right
+{
+    position: relative;
+    left: 50%;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 28px;
+    padding: 5px;
+}
+
+.navbar img
+{
+    height: 20px;
+}
+
+.container1
+{
+    display: flex;
+    justify-content: start;
+}
+
+.container1 .infoleft
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: 80px;
+    margin: 17px 0px 0px 76px;
+}
+
+.container1 .inforight
+{
+    position: relative;
+    top: 80px;
+    height: 40px;
+    width: 40px;
+    left: 1px;
+}
+
+.container1 .inforight img
+{
+    height: 288px;
+    width: 502px;
+   
+    padding: 3px;
+}
+
+.container1 .infoleft .para
+{
+    position: relative;
+    top: 30px;
+    margin: 0px;
+    height: 200;
+    width: 550px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container1 .infoleft button
+{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FCAF02;
+    border-radius: 100px;
+}
+
+.heading
+{
+    color: #FCAF02;
+    position: relative;
+    top: 200px;
+    left: 70px;
+}
+
+.inputs
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.inputs input
+{
+    width: 90%;
+    height: 30px;
+    position: relative;
+    top: 230px;
+    left: 70px;
+    margin: 7px;
+    padding: 4px;
+    border-radius: 30px;
+    background-color: black;
+    border: 1px solid #FCAF02;
+}
+
+.inputs input[type="text"]::placeholder, .inputs2 input[type="text"]::placeholder
+{
+
+    position: relative;
+    left: 40px;
+    font-size: 17px;
+}
+
+.inputs2
+{
+    display: flex;
+    
+}
+
+.inputs2 input
+{
+    width: 44%;
+    height: 30px;
+    position: relative;
+    top: 230px;
+    left: 70px;
+    margin: 7px;
+    padding: 4px;
+    border-radius: 30px;
+    background-color: black;
+    border: 1px solid #FCAF02;
+}
+
+.btn
+{
+    position: relative;
+    top: 260px;
+    left: 570px;
+
+}
+
+.btn button
+{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FCAF02;
+    border-radius: 100px;
+}
+
+table
+{
+    position: relative;
+    top: 300px;
+    left: 80px;
+    color: #FCAF02;
+}
+
+
+table, tr, td, th
+{
+    border-left: 1px solid #FCAF02;
+    border-right: 1px solid #FCAF02;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 20px;
+}
+
+th
+{
+    border: 1px solid #FCAF02;
+}
+
+thead
+{
+    height: 50px;
+}
+
+.tfooter
+{
+    background-color: #FCAF02;
+    color: black;
+}
+
+
+
+input :focus
+{
+    outline: none;
+}
